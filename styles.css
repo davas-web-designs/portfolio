@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{
+  margin:0;
+  padding:0;
+}
+body, html {
+  /* The image used */
+  background-image: url("img/clouds.jpg");
+  background-color: #dfe6e9;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  color:#636e72;
+}
+
+@media screen and (min-width:992px){
+  .principal > div{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .first{
+    border-right: 3px solid #b2bec3;
+  }
+}
+@media screen and (max-width:991px){
+  .portrait{
+    margin:auto;
+  }
+}
+
+@media screen and (max-width:768px){
+  .portrait{
+    width:150px;
+    height: 150px;
+  }
+}
+
+.row > div{
+
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+.row > div *{
+  display:block;
+}
+
+.portrait{
+  width:25vw;
+  height:25vw;
+  border-radius:50%;
+  background:url('img/portrait.jpg');
+  background-size: cover;
+  opacity:0.75;
+  border:3px solid #74b9ff;
+}
+
+.icons > a{
+  display: inline-block;
+  margin-left:1rem;
+}
+
+.info > h5{
+  margin-bottom:2rem;
+}
+
+.projects h3{
+  padding: 2rem 0;
+}
