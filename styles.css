@@ -5,20 +5,26 @@
 }
 body, html {
   /* The image used */
-  background-image: url("img/clouds.jpg");
-  background-color: #dfe6e9;
+  background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
 
-  /* Full height */
-  height: 100vh;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100vw 100vh;
   color:#636e72;
 }
 
 @media screen and (min-width:992px){
+  body, html {
+    /* The image used */
+    background-image: url("img/clouds.jpg");
+    background-color: #dfe6e9;
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    color:#636e72;
+  }
   .principal > div{
     height:100vh;
     display:flex;
