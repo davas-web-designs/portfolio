@@ -35,6 +35,9 @@ body, html {
   .first{
     border-right: 3px solid #b2bec3;
   }
+  .info > h5{
+    margin-bottom:2rem;
+  }
 }
 @media screen and (max-width:991px){
   .portrait{
@@ -67,15 +70,15 @@ body, html {
   opacity:0.75;
   border:3px solid #74b9ff;
 }
-
+.icons {
+  margin-top: 2rem;
+}
 .icons > a{
   display: inline-block;
   margin-left:1rem;
 }
 
-.info > h5{
-  margin-bottom:2rem;
-}
+
 
 .projects h3{
   padding: 2rem 0;
